@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 174, 217);
+    height: 500px;
+}
+
+img, svg {
+    vertical-align: top;
+    height: 40px;
+  }
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(237, 244, 104);
+    font-size: 1.1rem;
+}
+.navbar-dark .navbar-nav1 .nav-link:hover{
+    color: rgb(239, 53, 226);
+    font-size: 0.9rem;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(252, 254, 255);
+    font-size: 1.5rem;
+}
+.navbar-light .navbar-nav a:hover{
+    background-color: rgb(125, 174, 217);
+    border-radius: 10px;
+}
