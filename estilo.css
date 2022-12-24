@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(125, 174, 217);
-    height: 500px;
+    height: 200px;
 }
 
 img, svg {
@@ -24,5 +24,24 @@ img, svg {
 }
 .navbar-light .navbar-nav a:hover{
     background-color: rgb(125, 174, 217);
-    border-radius: 10px;
+    border-radius: 50px;
+}
+.navbar-light .navbar-nav .redBell:hover{
+    color: red !important;
+}
+
+
+/* jugando con la campanita */
+#imagen-cambiante {
+    min-height: 25px;
+    min-width: 25px;
+    background: url(img/campana1.png)no-repeat;
+}
+
+#imagen-cambiante:hover {
+    background: url(img/campana2.png) no-repeat;
+}
+.icono-campana img{
+    height: 10px;
+    
 }

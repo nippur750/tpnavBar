@@ -10,6 +10,9 @@
    xml:space="preserve"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    sodipodi:docname="campana1.svg"
+   inkscape:export-filename="campana1.png"
+   inkscape:export-xdpi="8.4362545"
+   inkscape:export-ydpi="8.4362545"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,10 +30,10 @@
      inkscape:zoom="0.52724989"
      inkscape:cx="98.624961"
      inkscape:cy="293.97825"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1592"
-     inkscape:window-y="-8"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="170"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs2" /><g
@@ -38,5 +41,5 @@
      inkscape:groupmode="layer"
      id="layer1"><path
        d="m 104.58133,106.05564 c -1.00684,-0.91547 -2.04619,-2.41289 -2.30988,-3.32818 -0.47328,-1.64226 -0.39047,-1.66497 6.59659,-1.66497 4.51527,0 7.07601,0.28478 7.07601,0.78793 0,1.21597 -1.58984,3.91852 -2.89429,4.92012 -1.97411,1.51647 -6.42781,1.1391 -8.46843,-0.7163 z M 86.85329,97.611324 c -1.18138,-1.18103 -0.34138,-3.77841 1.71353,-5.297671 3.34249,-2.47124 4.31072,-5.07333 5.51888,-14.83216 1.52484,-12.31724 3.08823,-15.15537 9.65506,-17.52842 1.37967,-0.49792 2.30823,-1.40815 2.45532,-2.40538 0.36252,-2.457611 2.8817,-3.498691 4.63236,-1.914271 0.77972,0.70582 1.41758,1.855401 1.41758,2.555101 0,0.82986 0.79457,1.43086 2.28813,1.72961 3.08719,0.61671 7.02298,4.71116 7.95811,8.2773 0.42017,1.60207 1.11935,6.17941 1.55385,10.17061 0.86183,7.91863 2.50887,12.11091 5.53785,14.095591 1.32795,0.87005 1.89159,1.89541 1.89159,3.44104 v 2.20185 h -22.06462 c -12.13553,0 -22.28648,-0.22188 -22.55766,-0.49268 z"
-       style="fill:#000000;stroke-width:0.739595"
+       style="fill:#999999;stroke-width:0.739595"
        id="path225" /></g></svg>

@@ -20,6 +20,54 @@
 </head>
 
 <body>
+  
+  <section class="main">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <!-- navbar documentación boostrap -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://preview.webpixels.io/web/img/logos/clever-primary.svg"
+              class="h-8" alt="..."></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Desplegable
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Primer opción</a></li>
+                  <li><a class="dropdown-item" href="#">alguna opción más</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">tercera opción</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
   <Section class="main">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-3">
@@ -44,89 +92,29 @@
             </div>
             <!-- Right navigation -->
             <div class="navbar-nav ms-lg-4">
-              <a class="nav-item nav-link" href="#">Suscribirse</a>
-            </div>
-            <!-- Action -->
-            <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
-              <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
-                Registrar
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </Section>
-  <Section class="main">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
-        <div class="container-xl">
-          <!-- Logo -->
-          <a class="navbar-brand" href="#">
-            <img src="https://preview.webpixels.io/web/img/logos/clever-primary.svg" class="h-8" alt="...">
-          </a>
-          <!-- Navbar toggle -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collapse -->
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <!-- Nav -->
-            <div class="navbar-nav mx-lg-auto">
-              <a class="nav-item nav-link active" href="#" aria-current="page">Inicio</a>
-              <a class="nav-item nav-link" href="#">Productos</a>
-              <a class="nav-item nav-link" href="#">Quienes somos.</a>
-              <a class="nav-item nav-link" href="#">Contacto</a>
-            </div>
-            <!-- Right navigation -->
-            <div class="navbar-nav ms-lg-4">
-              <a class="nav-item nav-link" href="#">Suscribirse</a>
-            </div>
-            <!-- Action -->
-            <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
-              <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
-                Registrar
-              </a>
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class="fas fa-shopping-cart">
+                    </i></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link redBell" href="#">
+                    <!-- <i class="fas fa-bell"></i> -->
+                    <div id="imagen-cambiante"></div><!-- no me gusta como quedo, el sitio remoto no me toma .svg -->
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><img class="user-img rounded-pill" src="img/web-developer.jpg"
+                      alt=""></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </nav>
     </div>
   </Section>
-  <Section class="main">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
-        <div class="container-xl">
-          <!-- Logo -->
-          <a class="navbar-brand" href="#">
-            <img src="https://preview.webpixels.io/web/img/logos/clever-primary.svg" class="h-8" alt="...">
-          </a>
-          <!-- Navbar toggle -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collapse -->
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <!-- Nav -->
-            <div class="navbar-nav mx-lg-auto">
-              <a class="nav-item nav-link active" href="#" aria-current="page">Inicio</a>
-              <a class="nav-item nav-link" href="#">Productos</a>
-              <a class="nav-item nav-link" href="#">Quienes somos.</a>
-              <a class="nav-item nav-link" href="#">Contacto</a>
-            </div>
-            <!-- Right navigation -->
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-primary" type="submit">Buscar</button>
-            </form>
 
-          </div>
-        </div>
-      </nav>
-    </div>
-  </Section>
   <Section class="main">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
@@ -171,11 +159,116 @@
     </nav>
     </div>
   </Section>
-  <section>
-    <div class="main">
 
+  <Section class="main">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-3">
+        <div class="container-xl">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="https://preview.webpixels.io/web/img/logos/clever-primary.svg" class="h-8" alt="...">
+          </a>
+          <!-- Navbar toggle -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Nav -->
+            <div class="navbar-nav mx-lg-auto">
+              <a class="nav-item nav-link active" href="#" aria-current="page">Inicio</a>
+              <a class="nav-item nav-link" href="#">Productos</a>
+              <a class="nav-item nav-link" href="#">Quienes somos.</a>
+              <a class="nav-item nav-link" href="#">Contacto</a>
+            </div>
+            <!-- Right navigation -->
+            <div class="navbar-nav ms-lg-4">
+              <a class="nav-item nav-link" href="#">Suscribirse</a>
+            </div>
+            <!-- Action -->
+            <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+              <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
+                Registrar
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
-  </section>
+  </Section>
+  <Section class="main">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
+        <div class="container-xl">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="https://preview.webpixels.io/web/img/logos/clever-light.svg" class="h-8" alt="...">
+          </a>
+          <!-- Navbar toggle -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Nav -->
+            <div class="navbar-nav mx-lg-auto">
+              <a class="nav-item nav-link active" href="#" aria-current="page">Inicio</a>
+              <a class="nav-item nav-link" href="#">Productos</a>
+              <a class="nav-item nav-link" href="#">Quienes somos.</a>
+              <a class="nav-item nav-link" href="#">Contacto</a>
+            </div>
+            <!-- Right navigation -->
+            <div class="navbar-nav ms-lg-4">
+              <a class="nav-item nav-link" href="#">Suscribirse</a>
+            </div>
+            <!-- Action -->
+            <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+              <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
+                Registrar
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </Section>
+  <Section class="main">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
+        <div class="container-xl">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="https://preview.webpixels.io/web/img/logos/clever-light.svg" class="h-8" alt="...">
+          </a>
+          <!-- Navbar toggle -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Nav -->
+            <div class="navbar-nav mx-lg-auto">
+              <a class="nav-item nav-link active" href="#" aria-current="page">Inicio</a>
+              <a class="nav-item nav-link" href="#">Productos</a>
+              <a class="nav-item nav-link" href="#">Quienes somos.</a>
+              <a class="nav-item nav-link" href="#">Contacto</a>
+            </div>
+            <!-- Right navigation -->
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </Section>
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

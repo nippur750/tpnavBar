@@ -1,0 +1,16 @@
+
+
+
+.container{
+    height: 50px;
+}
+
+#imagen-cambiante {
+    min-height: 500px;
+    min-width: 500px;
+    background: url(campana1.svg)no-repeat;
+}
+
+#imagen-cambiante:hover {
+    background: url(campana2.svg) no-repeat;
+}
